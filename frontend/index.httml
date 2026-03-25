@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InkSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>InkSync – Handwriting to Text</h1>
+
+    <div class="upload-box">
+        <input type="file" id="fileInput" accept="image/*">
+        <button onclick="uploadImage()">Transcribe</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
